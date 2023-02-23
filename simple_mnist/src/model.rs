@@ -1,7 +1,7 @@
 use crate::data::MNISTBatch;
 use burn::{
     module::{Module, Param},
-    nn::conv::{Conv2d, Conv2dConfig, Conv2dPaddingConfig},
+    nn::conv::{Conv2d, Conv2dConfig},
     nn::loss::CrossEntropyLoss,
     nn::pool::{MaxPool2d, MaxPool2dConfig},
     nn::{Dropout, DropoutConfig, Linear, LinearConfig},

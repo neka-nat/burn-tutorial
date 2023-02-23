@@ -17,9 +17,9 @@ static ARTIFACT_DIR: &str = "./burn-example-mnist";
 
 #[derive(Config)]
 pub struct MnistConfig {
-    #[config(default = 6)]
+    #[config(default = 2)]
     pub num_epochs: usize,
-    #[config(default = 12)]
+    #[config(default = 64)]
     pub batch_size: usize,
     #[config(default = 8)]
     pub num_workers: usize,
